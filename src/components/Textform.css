@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.textformContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+textarea{
+    width: 100%;
+    outline: none;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 4px 10px;
+    background-color:whitesmoke;
+}
+.textformSummaryBox p{
+    color: red;
+}
+.textformSummaryBox .wordCount{
+    color:red;
+}
+.textformAlert{
+    height: 40px;
+    color: black;
+}
+hr{
+    margin:10px 0px;
+}
+.textformButtons button{
+    cursor: pointer;
+    background-color:#4949e4;
+    color: white;
+    padding: 4px 10px;
+    margin: 2px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.textformInline{
+    width: 60%;
+}
+.preview{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.preview p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+@media  screen and (max-width:640px) {
+    .textformInline{
+        width: 90%;
+    }
+    h1{
+        font-size: 22px;
+        margin-bottom: 5px;
+        /* color: red; */
+    }
+    h2{
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 16px;
+    }
+}

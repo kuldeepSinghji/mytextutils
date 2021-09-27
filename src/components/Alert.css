@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box    ;
+}
+.alertContainer{
+    /* border: 1px solid black; */
+    height: 40px;
+    background-color:#c3fcc3;
+    color: #000000a2;
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
