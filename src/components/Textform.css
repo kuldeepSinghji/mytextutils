@@ -20,12 +20,6 @@ textarea{
     padding: 4px 10px;
     background-color:whitesmoke;
 }
-.textformSummaryBox p{
-    color: red;
-}
-.textformSummaryBox .wordCount{
-    color:red;
-}
 .textformAlert{
     height: 40px;
     color: black;
